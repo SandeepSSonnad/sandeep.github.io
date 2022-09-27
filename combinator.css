@@ -1,0 +1,19 @@
+div p{
+
+    color:rgb(255, 0, 0);
+}
+/*child selector*/
+span > p{
+    color:blue;
+}
+/* Adjacent sibling selector*/
+div + p {
+    color:aqua;
+}
+/*General sibling selector */
+div ~ p{
+   color:violet;
+}
+
+
+
